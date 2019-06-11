@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Moh\\moh4\\Nuget\\ImageUploader\\ImageUploader\\Uploader.csproj": {}
+  },
+  "projects": {
+    "D:\\Moh\\moh4\\Nuget\\ImageUploader\\ImageUploader\\Uploader.csproj": {
+      "version": "1.4.3",
+      "restore": {
+        "projectUniqueName": "D:\\Moh\\moh4\\Nuget\\ImageUploader\\ImageUploader\\Uploader.csproj",
+        "projectName": "Uploader",
+        "projectPath": "D:\\Moh\\moh4\\Nuget\\ImageUploader\\ImageUploader\\Uploader.csproj",
+        "packagesPath": "C:\\Users\\Xe\\.nuget\\packages\\",
+        "outputPath": "D:\\Moh\\moh4\\Nuget\\ImageUploader\\ImageUploader\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Xe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

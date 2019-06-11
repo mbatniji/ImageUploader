@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ImageUploader
+namespace Uploader
 {
-    public static class ImageUploader
+    public static class Images 
     {
         /// <summary>
         /// Uploud Image File with validation
@@ -15,11 +15,11 @@ namespace ImageUploader
         /// <param name="url">the location to save the image</param>
         /// <param name="file">the file of type IFormFile</param>
         /// <returns>the name of saved image</returns>
-        public static async Task<string> UploadImage(string url, IFormFile file)
+        public static async Task<string> Upload(string path, IFormFile file)
         {
             if (CheckIfImageFile(file))
             {
-                return await WriteFile(url, file);
+                return await WriteFile(path, file);
             }
 
             return null;
@@ -31,9 +31,9 @@ namespace ImageUploader
         /// <param name="url">the path of image</param>
         /// <param name="filename">the file name</param>
         /// <returns>the deletion status</returns>
-        public static bool DeleteImage(string url, string filename)
+        public static bool Delete(string path, string filename)
         {
-            if (DeleteFile(url, filename))
+            if (DeleteFile(path, filename))
             {
                 return true;
             }
@@ -162,5 +162,6 @@ namespace ImageUploader
 
             return ImageFormat.unknown;
         }
+
     }
 }

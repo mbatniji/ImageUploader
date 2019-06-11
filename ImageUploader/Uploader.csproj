@@ -4,8 +4,13 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <Authors>Mbatniji</Authors>
     <PackageLicenseFile>license.txt</PackageLicenseFile>
-    <PackageIconUrl>ImageUploader.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/mbatniji/ImageUploader/master/ImageUploader/ImageUploader.png</PackageIconUrl>
     <Version>1.1.0</Version>
+    <PackageProjectUrl>https://github.com/mbatniji/ImageUploader</PackageProjectUrl>
+    <Description>uploud images or files</Description>
+    <Copyright>@Mbatniji 2019</Copyright>
+    <PackageTags>Uploud, Image, File, Asp.net Core</PackageTags>
+    <PackageReleaseNotes />
   </PropertyGroup>
 
   <ItemGroup>

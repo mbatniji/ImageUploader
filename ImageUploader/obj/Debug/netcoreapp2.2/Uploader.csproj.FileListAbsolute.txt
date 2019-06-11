@@ -1,0 +1,9 @@
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\bin\Debug\netcoreapp2.2\Uploader.deps.json
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\bin\Debug\netcoreapp2.2\Uploader.dll
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\bin\Debug\netcoreapp2.2\Uploader.pdb
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\obj\Debug\netcoreapp2.2\Uploader.csprojAssemblyReference.cache
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\obj\Debug\netcoreapp2.2\Uploader.csproj.CoreCompileInputs.cache
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\obj\Debug\netcoreapp2.2\Uploader.AssemblyInfoInputs.cache
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\obj\Debug\netcoreapp2.2\Uploader.AssemblyInfo.cs
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\obj\Debug\netcoreapp2.2\Uploader.dll
+D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\obj\Debug\netcoreapp2.2\Uploader.pdb

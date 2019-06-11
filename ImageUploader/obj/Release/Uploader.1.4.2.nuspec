@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Uploader</id>
+    <version>1.4.2</version>
+    <authors>Mbatniji</authors>
+    <owners>Mbatniji</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">license.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/mbatniji/ImageUploader</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/mbatniji/ImageUploader/master/ImageUploader/ImageUploader.png</iconUrl>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="Microsoft.AspNetCore.Http.Features" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\bin\Release\netcoreapp2.2\Uploader.dll" target="lib\netcoreapp2.2\Uploader.dll" />
+    <file src="D:\Moh\moh4\Nuget\ImageUploader\ImageUploader\license.txt" target="license.txt" />
+  </files>
+</package>
